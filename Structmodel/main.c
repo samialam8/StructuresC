@@ -21,13 +21,15 @@ int main(void)
 {
 
     struct CarModel carChevy = {2021, 15000, 220, 1330};
+    
+    printf("size of struct model is %I64u\n", sizeof(struct CarModel));
 
-    carChevy.carNumber = 1000;//to change data given
+    /*carChevy.carNumber = 1000;//to change data given
 
    printf("Deatils of car:\n");
    printf("carNumber = %u\n", carChevy.carNumber);
    printf("carPrice = %u\n", carChevy.carPrice);
    printf("carMaxSpeed = %u\n", carChevy.carMaxSpeed);
-   printf("carWeight = %lf\n", carChevy.carWeight);
+   printf("carWeight = %lf\n", carChevy.carWeight);*/
     return(0);
 }
