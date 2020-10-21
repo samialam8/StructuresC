@@ -33,3 +33,8 @@ int main(void)
    printf("carWeight = %lf\n", carChevy.carWeight);*/
     return(0);
 }
+
+/*o/p: carNumber = 1000
+       carPrice = 15000
+       carMaxSpeed = 220
+       carWeight = 1330.00 */
