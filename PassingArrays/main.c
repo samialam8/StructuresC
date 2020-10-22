@@ -22,7 +22,7 @@ int main(void)
 
 	}
 	uint32_t nItems = sizeof(someData) / sizeof(uint8_t);
-	array_display((someData + 2), nItems - 2);
+	array_display((someData + 2), nItems - 2); // start from 2 position
 	return 0;
 }
 
